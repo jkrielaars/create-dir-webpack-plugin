@@ -4,7 +4,7 @@ const path = require('path');
 class CreateDirPlugin {
 
   constructor(dirs) {
-    if (!dirs || Array.isArray(dirs)) {
+    if (!dirs || !Array.isArray(dirs) || !dirs.every(i => typeof i === "string")) {
       throw new Error('Required directories must be defined as an array of strings');
     }
     this.dirs = dirs;
