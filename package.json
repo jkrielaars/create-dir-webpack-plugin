@@ -1,0 +1,25 @@
+{
+  "name": "create-dir-webpack-plugin",
+  "version": "0.1.0",
+  "description": "Webpack plugin to create empty directories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkrielaars/create-dir-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "directory",
+    "dir",
+    "mkdir"
+  ],
+  "author": "Jasper Krielaars",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkrielaars/create-dir-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/jkrielaars/create-dir-webpack-plugin#readme"
+}
